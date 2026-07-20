@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "authdebug",
+	"version": "${version}",
+	"name": "AuthDebug",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"MotWnb"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/authdebug/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"io.github.motwnb.authdebug.AuthDebug"
+		]
+	},
+	"mixins": [
+		{
+			"config": "authdebug.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

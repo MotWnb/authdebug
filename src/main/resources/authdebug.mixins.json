@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "io.github.motwnb.authdebug.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"YggdrasilSessionServiceMixin",
+		"MinecraftClientExceptionMixin",
+		"AuthDebugMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
