@@ -3,7 +3,7 @@
 	"id": "authdebug",
 	"version": "${version}",
 	"name": "AuthDebug",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A debug Mod for dealing with an unavailable authentication server",
 	"authors": [
 		"MotWnb"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/authdebug/icon.png",
 	"environment": "*",
 	"entrypoints": {
